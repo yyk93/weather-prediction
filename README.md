@@ -14,6 +14,7 @@ This is a public weather dataset adapted from:
 
 The Dataset contains a one-year weather data by Canberra's weather station from 2007-2008. Canberra is Australia's capital city at the southeast of the continent. Here is an example of the [Weather map of Canberra](https://www.meteoblue.com/en/weather-maps/canberra_australia_2172517?variable=precipitation3h_cloudcover_pressure&level=surface&lines=none&mapcenter=-35.3481N148.9110&zoom=10)
 
+
 #### Tasks:
 Given the variables:
 
