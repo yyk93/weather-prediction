@@ -24,12 +24,17 @@ Given the variables:
 #### Results and Analysis:
 
 ##### Classfier: 
-+ Achieve an AUC of 0.75 on unseen test data
++ Achieve an AUC of 0.872 on unseen test data
++ Using XgboostClassifier and with undersampled training data along with standard scaling and PCA
++ Based on precision, each prediction of either "Survived", or "Not Survived" would be realised truely about 47.368% of the time.
++ Based on recall, each prediction of "Survived" has about 90% being correct.
++ Based on f1 score of the "Survived", the weighted average of the precision and recall is 62.069%
 
 ##### The regression model:
 + R-squared of 0.242 on unseen test data
 + Mean Square Error of 7.282 on unseen test data
 + RSME of 2.698 on unseen test data
+
 
 #### Limitations 
 + The dataset used contains only a one-year weather dataset localised at Canberra from 2007-2008 which may not have much data for insights to the weather patterns. 
@@ -39,10 +44,7 @@ Given the variables:
 #### Future Works:
 + I will attempt the similar [Kaggle's 10 years weather dataset](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) in another notebook to improve the model.
 
-+ The classifier achieved a  AUC of 0.75 on unseen test data which can be better.
-
 + Subsequently, it is possible to futrher expand the model to predict likelihood bushfires, the number and location of occurrences of the bushrfires, given the historical weather and  bushfires data.
-
 
 #### References:
 Australian Meteorological and Oceanographic Society (AMOS)(2017, August 1). 
