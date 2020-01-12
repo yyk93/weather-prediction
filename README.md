@@ -26,9 +26,9 @@ Given the variables:
 ##### Classfier: 
 + Achieve an AUC of 0.872 on unseen test data
 + Using XgboostClassifier and with undersampled training data along with standard scaling and PCA
-+ Based on precision, each prediction of either "Survived", or "Not Survived" would be realised truely about 47.368% of the time.
-+ Based on recall, each prediction of "Survived" has about 90% being correct.
-+ Based on f1 score of the "Survived", the weighted average of the precision and recall is 62.069%
++ Based on precision, each prediction of either "Rain Tomorrow", or "Not Rain Tomorrow" would be realised truely about 47.368% of the time.
++ Based on recall, each prediction of "Rain Tomorrow" has about 90% being correct.
++ Based on f1 score of the "Rain Tomorrow", the weighted average of the precision and recall is 62.069%
 
 ##### The regression model:
 + R-squared of 0.242 on unseen test data
